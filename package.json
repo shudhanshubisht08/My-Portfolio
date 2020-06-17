@@ -1,0 +1,15 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "Responsive site",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "sd",
+  "license": "ISC"
+}
