@@ -183,6 +183,10 @@ main {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
+.Certificate projects {
+  height: 110px;
+  width: 200px; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
