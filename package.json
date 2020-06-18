@@ -1,15 +1,18 @@
 {
   "name": "profile",
   "version": "1.0.0",
-  "description": "Responsive site",
+  "description": "",
   "main": "index.js",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.14.1"
   },
   "devDependencies": {},
+  "homepage": "https://bradtraversy.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "sd",
+  "author": "Sd",
   "license": "ISC"
 }
